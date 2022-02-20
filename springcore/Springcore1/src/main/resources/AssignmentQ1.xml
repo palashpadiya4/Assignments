@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd
+   http://www.springframework.org/schema/util
+   http://www.springframework.org/schema/util/spring-util.xsd">
+
+<!--    creating bean for Address class object-->
+    <bean class="org.example.AssignmentQ1.Address" name="address1">
+        <property name="street">
+            <value>rautwadir</value>
+        </property>
+        <property name="city">
+            <value>akola</value>
+        </property>
+        <property name="state">
+            <value>Maharashtra</value>
+        </property>
+        <property name="zip">
+            <value>4440017</value>
+        </property>
+        <property name="country">
+            <value>India</value>
+        </property>
+    </bean>
+
+<!--    creating bean for customer class object-->
+    <bean name="customer1" class="org.example.AssignmentQ1.Customer">
+        <property name="customerId">
+            <value>2</value>
+        </property>
+        <property name="customerName">
+            <value>Palash Padiya</value>
+        </property>
+        <property name="customerContact">
+            <value>7868576577</value>
+        </property>
+        <property name="address">
+            <ref bean="address1"/>
+        </property>
+    </bean>
+
+<!--    creating beans using constructor injections-->
+<!--    creating bean for address-->
+    <bean class="org.example.AssignmentQ1.Address" name="address2">
+        <constructor-arg name="street" value="shitlamatamandir"/>
+        <constructor-arg name="city" value="akola"/>
+        <constructor-arg name="state" value="maharashtra"/>
+        <constructor-arg name="zip" value="444001"/>
+        <constructor-arg name="country" value="India"/>
+    </bean>
+
+<!--    creating bean for customer-->
+    <bean name="customer2" class="org.example.AssignmentQ1.Customer">
+        <constructor-arg name="customerId" value="23"/>
+        <constructor-arg name="customerName" value="Nishchal"/>
+        <constructor-arg name="customerContact" value="9876543214"/>
+        <constructor-arg name="address" ref="address2"/>
+    </bean>
+</beans>
