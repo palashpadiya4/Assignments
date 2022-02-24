@@ -1,5 +1,8 @@
 package org.example.AssignmentQ8;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 public class AnnotationBeanLifeCycle {
     int price;
 
@@ -22,7 +25,11 @@ public class AnnotationBeanLifeCycle {
         this.price = price;
     }
 
-    @PostConstruct 
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+    	// TODO Auto-generated method stub
+    	return super.clone();
+    }
     public void init(){
         System.out.println("Calling init using Annotation");
     }
