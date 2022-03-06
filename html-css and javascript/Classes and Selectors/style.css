@@ -1,0 +1,53 @@
+/* p.error{
+    color: red;
+}
+
+p.success{
+    color: green;
+}
+p.success.feedback
+{
+    border: 1px dashed green ;
+}
+#content
+{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+/* div p
+{
+    color: red;
+} */
+
+/* a[href*="google"]
+{
+    background-color: rgb(68, 216, 216);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a[href$=".com"]
+{
+    color: rebeccapurple;
+    background-color: yellow;
+
+} */
+
+div{
+    color: rgb(65, 161, 52);
+    border: 1px solid green;
+    margin: 50px;
+    font-weight: bold;
+}
+
+div p{
+   
+    margin: inherit;
+    color: rgb(49, 51, 209);
+}
+
+p{
+    color: rgb(206, 219, 18);
+}

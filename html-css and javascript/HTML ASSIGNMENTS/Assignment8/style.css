@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+}
+
+.container {
+    border:  solid;
+    width: fit-content;
+    padding: 10px;
+}
+
+table,
+td,
+th {
+    border: 5px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
