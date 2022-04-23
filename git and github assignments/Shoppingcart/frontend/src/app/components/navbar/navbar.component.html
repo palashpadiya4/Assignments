@@ -1,0 +1,47 @@
+<p>
+    <mat-toolbar color="primary">
+      
+      <button
+      routerLink="/"
+      mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Shopping Cart</span>
+
+      <mat-icon>shopping_cart</mat-icon>
+      <span class="example-spacer"></span>
+      <a
+      *ngIf="!isLoggedIn"
+      routerLink="login"
+      mat-icon-button class="example-icon
+       favorite-icon mr10" aria-label="Example icon-button with heart icon">
+        Login
+    </a>
+    
+    <a
+    *ngIf="isLoggedIn"
+    (click)="logout()"
+    mat-icon-button class="example-icon
+     favorite-icon mr10" aria-label="Example icon-button with heart icon">
+      Logout
+  </a>
+    <a
+    *ngIf="!isLoggedIn"
+      routerLink="signup"
+      
+      mat-icon-button class="example-icon mr20" 
+      aria-label="Example icon-button with share icon">
+      Register
+        
+    </a>
+    <button
+    *ngIf="isLoggedIn && user"
+    mat-icon-button class="example-icon favorite-icon mr10"
+    mat-button
+    routerLink="/admin/profile"
+      aria-label="Example icon-button with heart icon">
+     {{ login.getUser().username }}
+  </button>
+    </mat-toolbar>
+  </p>
+  
