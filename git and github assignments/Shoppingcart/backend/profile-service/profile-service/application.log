@@ -1,0 +1,158 @@
+2022-04-23 00:28:26,590 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m6s525ms784µs300ns).
+2022-04-23 00:29:02,562 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 00:36:22,420 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m53s767ms766µs900ns).
+2022-04-23 01:11:39,793 INFO  StartupInfoLogger:55 - [] Starting ExamserverApplication using Java 18 on palash with PID 1144 (C:\Users\9657p\OneDrive\Desktop\ShoppingCart\backend\profile-service\profile-service\target\classes started by 9657p in C:\Users\9657p\OneDrive\Desktop\ShoppingCart\backend\profile-service\profile-service)
+2022-04-23 01:11:39,805 INFO  SpringApplication:640 - [] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 01:11:40,026 INFO  DeferredLog:255 - [] The Class-Path manifest attribute in C:\Users\9657p\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.0\jaxb-runtime-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/txw2-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/stax-ex-1.7.8.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/FastInfoset-1.2.13.jar
+2022-04-23 01:11:40,030 INFO  DeferredLog:255 - [] The Class-Path manifest attribute in C:\Users\9657p\.m2\repository\org\glassfish\jaxb\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/txw2-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/istack-commons-runtime-3.0.5.jar
+2022-04-23 01:11:40,035 INFO  DeferredLog:255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-23 01:11:40,040 INFO  DeferredLog:255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-23 01:11:42,684 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-23 01:11:43,146 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 434 ms. Found 2 JPA repository interfaces.
+2022-04-23 01:11:44,036 INFO  GenericScope:283 - [] BeanFactory id=40ae1c69-428c-3bd1-99d8-c1eaf69ec37e
+2022-04-23 01:11:45,927 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-04-23 01:11:45,949 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-23 01:11:45,951 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-23 01:11:46,145 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-23 01:11:46,146 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 6095 ms
+2022-04-23 01:11:46,686 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-23 01:11:46,869 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-23 01:11:47,461 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-23 01:11:47,680 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-23 01:11:47,744 WARN  DriverDataSource:70 - [] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-04-23 01:11:49,898 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-23 01:11:49,946 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-23 01:11:52,518 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-23 01:11:52,533 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-23 01:11:53,462 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-23 01:11:53,931 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-23 01:11:54,582 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-04-23 01:11:54,882 INFO  DiscoveryClientOptionalArgsConfiguration:68 - [] Eureka HTTP Client uses RestTemplate.
+2022-04-23 01:11:55,219 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82 - [] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-23 01:11:55,265 INFO  InstanceInfoFactory:67 - [] Setting initial instance status as: STARTING
+2022-04-23 01:11:55,456 INFO  DiscoveryClient:372 - [] Initializing Eureka in region us-east-1
+2022-04-23 01:11:55,467 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:11:55,513 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2022-04-23 01:11:55,514 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2022-04-23 01:11:55,514 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2022-04-23 01:11:55,515 INFO  DiscoveryClient:1010 - [] Application is null : false
+2022-04-23 01:11:55,515 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2022-04-23 01:11:55,515 INFO  DiscoveryClient:1013 - [] Application version is -1: true
+2022-04-23 01:11:55,516 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2022-04-23 01:11:56,363 INFO  DiscoveryClient:1106 - [] The response status is 200
+2022-04-23 01:11:56,368 INFO  DiscoveryClient:1321 - [] Starting heartbeat executor: renew interval is: 30
+2022-04-23 01:11:56,373 INFO  InstanceInfoReplicator:60 - [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-23 01:11:56,384 INFO  DiscoveryClient:492 - [] Discovery Client initialized at timestamp 1650656516381 with initial instances count: 0
+2022-04-23 01:11:56,390 INFO  EurekaServiceRegistry:41 - [] Registering application PROFILE-SERVICE with eureka with status UP
+2022-04-23 01:11:56,391 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1650656516391, current=UP, previous=STARTING]
+2022-04-23 01:11:56,396 INFO  DiscoveryClient:873 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088: registering service...
+2022-04-23 01:11:56,455 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-04-23 01:11:56,456 INFO  EurekaAutoServiceRegistration:144 - [] Updating port to 8088
+2022-04-23 01:11:56,603 INFO  DiscoveryClient:882 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088 - registration status: 204
+2022-04-23 01:11:56,634 INFO  StartupInfoLogger:61 - [] Started ExamserverApplication in 18.588 seconds (JVM running for 20.718)
+2022-04-23 01:12:26,387 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2022-04-23 01:12:26,389 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2022-04-23 01:12:26,389 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2022-04-23 01:12:26,391 INFO  DiscoveryClient:1010 - [] Application is null : false
+2022-04-23 01:12:26,392 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2022-04-23 01:12:26,396 INFO  DiscoveryClient:1013 - [] Application version is -1: false
+2022-04-23 01:12:26,404 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2022-04-23 01:12:26,506 INFO  DiscoveryClient:1106 - [] The response status is 200
+2022-04-23 01:12:42,940 INFO  DirectJDKLog:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-23 01:12:42,941 INFO  FrameworkServlet:525 - [] Initializing Servlet 'dispatcherServlet'
+2022-04-23 01:12:42,943 INFO  FrameworkServlet:547 - [] Completed initialization in 2 ms
+2022-04-23 01:16:55,531 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:21:55,656 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:26:55,666 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:31:55,672 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:36:55,676 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:41:55,723 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:46:55,729 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:51:55,775 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 01:56:55,780 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 04:01:26,919 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m27s836ms976µs100ns).
+2022-04-23 04:02:53,605 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 04:07:53,617 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 06:12:24,721 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m27s663ms354µs900ns).
+2022-04-23 06:13:51,271 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 06:18:51,279 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 08:23:52,992 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m28s117ms710µs200ns).
+2022-04-23 08:24:49,395 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 08:29:49,410 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 10:35:22,159 WARN  HikariPool$HouseKeeper:788 - [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m29s1ms766µs600ns).
+2022-04-23 10:35:48,414 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 10:40:48,417 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 10:45:48,431 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 10:46:24,490 INFO  EurekaServiceRegistry:62 - [] Unregistering application PROFILE-SERVICE with eureka with status DOWN
+2022-04-23 10:46:24,491 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1650690984491, current=DOWN, previous=UP]
+2022-04-23 10:46:24,492 INFO  DiscoveryClient:873 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088: registering service...
+2022-04-23 10:46:25,182 INFO  DiscoveryClient:882 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088 - registration status: 204
+2022-04-23 10:46:25,726 INFO  AbstractEntityManagerFactoryBean:651 - [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-23 10:46:25,928 INFO  HikariDataSource:350 - [] HikariPool-1 - Shutdown initiated...
+2022-04-23 10:46:25,947 INFO  HikariDataSource:352 - [] HikariPool-1 - Shutdown completed.
+2022-04-23 10:46:25,948 INFO  DiscoveryClient:935 - [] Shutting down DiscoveryClient ...
+2022-04-23 10:46:28,965 WARN  TimedSupervisorTask:90 - [] task supervisor shutting down, can't accept the task
+2022-04-23 10:46:28,968 INFO  DiscoveryClient:971 - [] Unregistering ...
+2022-04-23 10:46:29,080 INFO  DiscoveryClient:973 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088 - deregister  status: 200
+2022-04-23 10:46:29,141 INFO  DiscoveryClient:960 - [] Completed shut down of DiscoveryClient
+2022-04-23 10:46:42,891 INFO  StartupInfoLogger:55 - [] Starting ExamserverApplication using Java 18 on palash with PID 748 (C:\Users\9657p\OneDrive\Desktop\ShoppingCart\backend\profile-service\profile-service\target\classes started by 9657p in C:\Users\9657p\OneDrive\Desktop\ShoppingCart\backend\profile-service\profile-service)
+2022-04-23 10:46:42,902 INFO  SpringApplication:640 - [] No active profile set, falling back to 1 default profile: "default"
+2022-04-23 10:46:43,105 INFO  DeferredLog:255 - [] The Class-Path manifest attribute in C:\Users\9657p\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.0\jaxb-runtime-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-core-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/txw2-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/istack-commons-runtime-3.0.5.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/stax-ex-1.7.8.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0/FastInfoset-1.2.13.jar
+2022-04-23 10:46:43,106 INFO  DeferredLog:255 - [] The Class-Path manifest attribute in C:\Users\9657p\.m2\repository\org\glassfish\jaxb\jaxb-core\2.3.0\jaxb-core-2.3.0.jar referenced one or more files that do not exist: file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/jaxb-api-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/txw2-2.3.0.jar,file:/C:/Users/9657p/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0/istack-commons-runtime-3.0.5.jar
+2022-04-23 10:46:43,107 INFO  DeferredLog:255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-23 10:46:43,108 INFO  DeferredLog:255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-23 10:46:46,527 INFO  RepositoryConfigurationDelegate:132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-23 10:46:47,266 INFO  RepositoryConfigurationDelegate:201 - [] Finished Spring Data repository scanning in 697 ms. Found 2 JPA repository interfaces.
+2022-04-23 10:46:49,421 INFO  GenericScope:283 - [] BeanFactory id=40ae1c69-428c-3bd1-99d8-c1eaf69ec37e
+2022-04-23 10:46:52,456 INFO  TomcatWebServer:108 - [] Tomcat initialized with port(s): 8088 (http)
+2022-04-23 10:46:52,507 INFO  DirectJDKLog:173 - [] Starting service [Tomcat]
+2022-04-23 10:46:52,509 INFO  DirectJDKLog:173 - [] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-23 10:46:52,986 INFO  DirectJDKLog:173 - [] Initializing Spring embedded WebApplicationContext
+2022-04-23 10:46:52,987 INFO  ServletWebServerApplicationContext:290 - [] Root WebApplicationContext: initialization completed in 9877 ms
+2022-04-23 10:46:53,603 INFO  LogHelper:31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-23 10:46:53,771 INFO  Version:44 - [] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-23 10:46:54,301 INFO  JavaReflectionManager:56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-23 10:46:54,631 INFO  HikariDataSource:110 - [] HikariPool-1 - Starting...
+2022-04-23 10:46:54,720 WARN  DriverDataSource:70 - [] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-04-23 10:46:55,777 INFO  HikariDataSource:123 - [] HikariPool-1 - Start completed.
+2022-04-23 10:46:55,826 INFO  Dialect:175 - [] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-04-23 10:46:59,121 INFO  JtaPlatformInitiator:52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-23 10:46:59,141 INFO  AbstractEntityManagerFactoryBean:437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-23 10:46:59,928 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-23 10:47:00,344 INFO  DefaultSecurityFilterChain:52 - [] Will not secure any request
+2022-04-23 10:47:01,346 INFO  OptionalLiveReloadServer:58 - [] LiveReload server is running on port 35729
+2022-04-23 10:47:01,626 INFO  DiscoveryClientOptionalArgsConfiguration:68 - [] Eureka HTTP Client uses RestTemplate.
+2022-04-23 10:47:02,081 WARN  LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82 - [] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-23 10:47:02,165 INFO  InstanceInfoFactory:67 - [] Setting initial instance status as: STARTING
+2022-04-23 10:47:02,428 INFO  DiscoveryClient:372 - [] Initializing Eureka in region us-east-1
+2022-04-23 10:47:02,443 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 10:47:02,497 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2022-04-23 10:47:02,498 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2022-04-23 10:47:02,500 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2022-04-23 10:47:02,501 INFO  DiscoveryClient:1010 - [] Application is null : false
+2022-04-23 10:47:02,502 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2022-04-23 10:47:02,502 INFO  DiscoveryClient:1013 - [] Application version is -1: true
+2022-04-23 10:47:02,503 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2022-04-23 10:47:03,219 INFO  DiscoveryClient:1106 - [] The response status is 200
+2022-04-23 10:47:03,223 INFO  DiscoveryClient:1321 - [] Starting heartbeat executor: renew interval is: 30
+2022-04-23 10:47:03,229 INFO  InstanceInfoReplicator:60 - [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-23 10:47:03,246 INFO  DiscoveryClient:492 - [] Discovery Client initialized at timestamp 1650691023238 with initial instances count: 0
+2022-04-23 10:47:03,255 INFO  EurekaServiceRegistry:41 - [] Registering application PROFILE-SERVICE with eureka with status UP
+2022-04-23 10:47:03,257 INFO  DiscoveryClient$3:1352 - [] Saw local status change event StatusChangeEvent [timestamp=1650691023257, current=UP, previous=STARTING]
+2022-04-23 10:47:03,261 INFO  DiscoveryClient:873 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088: registering service...
+2022-04-23 10:47:03,322 INFO  TomcatWebServer:220 - [] Tomcat started on port(s): 8088 (http) with context path ''
+2022-04-23 10:47:03,325 INFO  EurekaAutoServiceRegistration:144 - [] Updating port to 8088
+2022-04-23 10:47:03,360 INFO  DiscoveryClient:882 - [] DiscoveryClient_PROFILE-SERVICE/palash:profile-service:8088 - registration status: 204
+2022-04-23 10:47:03,686 INFO  StartupInfoLogger:61 - [] Started ExamserverApplication in 22.608 seconds (JVM running for 25.583)
+2022-04-23 10:47:33,239 INFO  DiscoveryClient:1007 - [] Disable delta property : false
+2022-04-23 10:47:33,240 INFO  DiscoveryClient:1008 - [] Single vip registry refresh property : null
+2022-04-23 10:47:33,241 INFO  DiscoveryClient:1009 - [] Force full registry fetch : false
+2022-04-23 10:47:33,241 INFO  DiscoveryClient:1010 - [] Application is null : false
+2022-04-23 10:47:33,242 INFO  DiscoveryClient:1011 - [] Registered Applications size is zero : true
+2022-04-23 10:47:33,242 INFO  DiscoveryClient:1013 - [] Application version is -1: false
+2022-04-23 10:47:33,242 INFO  DiscoveryClient:1097 - [] Getting all instance registry info from the eureka server
+2022-04-23 10:47:33,285 INFO  DiscoveryClient:1106 - [] The response status is 200
+2022-04-23 10:52:02,510 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 10:57:02,522 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 11:02:02,531 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
+2022-04-23 11:07:02,575 INFO  ConfigClusterResolver:43 - [] Resolving eureka endpoints via configuration
